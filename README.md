@@ -43,7 +43,7 @@
 <blockquote>Usage: hmmsearch [options] &lt;query hmmfile&gt; &lt;target seqfile&gt;</blockquote>
 </li>
 <li>
-<blockquote>Example: hmmsearch MADS.hmm 51_Genomes_Peps &gt; MADS_list</blockquote>
+<blockquote>Example: hmmsearch MADS.hmm 51_Genomes_Peps &gt; MADS_result</blockquote>
 </li>
 </ul>
 </li>
@@ -52,7 +52,7 @@
 <p>&gt;&gt;&gt; The gene list of candidate MADS-box genes from the 51 Genomes (&ldquo;<a href="https://www.dropbox.com/sh/faq97k63j2hzo8g/AACgVMW1Rb_E76Zu1xgMUAyZa?dl=0">MADS_list</a>&rdquo;)</p>
 <ul>
 <li>Extract subnetwork from the synteny network database as needed, using a list containing all HMMER-identified family members.</li>
-<li>Command: grep -F MADS_list 51_Genomes_Blocks &gt; MADS.SynNet</li>
+<li>Command: grep -f MADS_list 51_Genomes_Blocks &gt; MADS.SynNet</li>
 <li>Now we obtain all syntenic relationships for all MADS-box genes.</li>
 </ul>
 <p>&gt;&gt;&gt; Synteny network of MADS-box genes across 51genomes (<a href="https://www.dropbox.com/sh/faq97k63j2hzo8g/AACgVMW1Rb_E76Zu1xgMUAyZa?dl=0">MADS.SynNet</a>)</p>
